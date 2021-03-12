@@ -22,11 +22,3 @@ spec:
           - name: http
             containerPort: {{ .Values.image.containerPort }}
             protocol: TCP
-        livenessProbe:
-          httpGet:
-            path: {{ .Values.image.livenessProbe }}
-            port: http
-        readinessProbe:
-            httpGet:
-              path: {{ .Values.image.readinessProbe }}
-              port: http
