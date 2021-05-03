@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: devopsupskillregistrylpwwq.azurecr.io/devops-bookstore-api:1.18
+  repository: devopsupskillregistrylpwwq.azurecr.io/devopsupskill/devops-bookstore-api:1.18
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
